@@ -1,5 +1,3 @@
-
-
 # Build-A-Bug
 
 ## About
