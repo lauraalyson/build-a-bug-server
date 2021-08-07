@@ -1,14 +1,18 @@
 const mongoose = require('mongoose')
 
 const bugSchema = new mongoose.Schema({
-  title: {
+  name: {
     type: String,
     required: true
   },
-  text: {
-    type: String,
-    required: true
-  },
+  // age: {
+  //   type: String,
+  //   required: true
+  // },
+  // favErrorCode: {
+  //   type: String,
+  //   required: true
+  // },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
