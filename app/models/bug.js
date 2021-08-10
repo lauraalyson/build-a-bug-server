@@ -1,6 +1,10 @@
 const mongoose = require('mongoose')
 
 const bugSchema = new mongoose.Schema({
+  image: {
+    type: String,
+    default: 'https://i.imgur.com/7xTr4CO.gif'
+  },
   name: {
     type: String,
     required: true
