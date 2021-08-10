@@ -10,7 +10,9 @@ curl "${API}${URL_PATH}" \
   --header "Authorization: Bearer ${TOKEN}" \
   --data '{
     "bug": {
-      "name": "'"${NAME}"'"
+      "name": "'"${NAME}"'",
+      "age": "'"${AGE}"'",
+      "favErrorCode": "'"${FAVERRCODE}"'"
     }
   }'
 

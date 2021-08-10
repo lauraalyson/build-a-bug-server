@@ -5,14 +5,14 @@ const bugSchema = new mongoose.Schema({
     type: String,
     required: true
   },
-  // age: {
-  //   type: String,
-  //   required: true
-  // },
-  // favErrorCode: {
-  //   type: String,
-  //   required: true
-  // },
+  age: {
+    type: String,
+    required: true
+  },
+  favErrorCode: {
+    type: String,
+    required: true
+  },
   owner: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
