@@ -27,4 +27,4 @@ Build-A-Bug is a simple and interactive game that allows users to build and care
 
 ## ERD (entity relationship diagram)
 
-![ERD](https://i.imgur.com/YzHSppG.png)
+![ERD](https://i.imgur.com/Vk6MSmb.png)
