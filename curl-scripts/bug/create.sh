@@ -13,6 +13,7 @@ curl "${API}${URL_PATH}" \
       "name": "'"${NAME}"'",
       "age": "'"${AGE}"'",
       "favErrorCode": "'"${FAVERRCODE}"'"
+      "bugsLifeChatacter": "'"${BUGSLIFECHARACTER}"'"
     }
   }'
 
