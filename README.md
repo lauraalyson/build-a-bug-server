@@ -8,6 +8,10 @@ Let's pay homage to the o.g. bug - the insect!
 Build-A-Bug is a simple and interactive game that allows users to build and care for a bug. Take a break from the bugs in your code and Build-A-Bug instead.  
 ```
 # Version One Breakdown
+## Repositories 
+
+- [Client](https://github.com/lauraalyson/build-a-bug-client)
+- [Server](https://github.com/lauraalyson/build-a-bug-server)
 ## ERD (entity relationship diagram)
 
 ![ERD](https://i.imgur.com/Vk6MSmb.png)
